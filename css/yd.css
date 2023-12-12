@@ -101,6 +101,7 @@ footer {
   padding-top: 3vh;
   background: #9da0ff;
   margin-top: auto;
+  overflow: hidden;
 }
 footer li a {
   margin: 20px;
