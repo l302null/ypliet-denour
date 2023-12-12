@@ -83,8 +83,9 @@ button {
 }
 li {
   list-style: none;
+  align-items: center;
 }
-li a {
+a {
   text-decoration: none;
 }
 li a:where(:hover, :focus) {
@@ -101,12 +102,7 @@ footer {
   background: #9da0ff;
   margin-top: auto;
 }
-footer li {
-  list-style: none;
-  align-items: center;
-}
 footer li a {
-  text-decoration: none;
   margin: 20px;
 }
 footer button:hover {
