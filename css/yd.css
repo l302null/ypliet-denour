@@ -74,10 +74,12 @@ body {
   font-size: var(--fs-body);
   font-family: var(--ff-body);
 
-  color: var(--clr-primary-400);
+  background-color: aliceblue;;
 }
 body p {
   margin-left: .75rem;
+}
+main {
 }
 button {
   border: none;
@@ -259,13 +261,14 @@ cursor: pointer;
   padding: .5rem;
   gap: .75rem;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
-  grid-auto-rows: 120px auto auto;
   container-type: inline-size;
 }
 .listing img {
-  border-radius: 6%;
+  border-radius: 1em;
+  max-width: fit-content;
 }
 .listing button:hover{
   transform: scale(1.05);
+  transform-origin: center;
   transition: all 0.2s ease-in-out;
 }
