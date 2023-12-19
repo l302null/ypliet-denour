@@ -50,6 +50,7 @@
   margin: 0;
   padding: 0;
   font: inherit;
+  
 }
 html:focus-within {
   scroll-behavior: smooth;
@@ -66,6 +67,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  width: auto;
 
   font-family: 'Rajdhani';
   text-rendering: optimizeSpeed;
@@ -190,6 +192,33 @@ footer button:hover {
   width: min(var(--max-width), 100% - ( var(--padding) * 2));
   margin-inline: auto;
 }
+.border-blu {
+  border: grey;
+  border-style: solid;
+  border-radius: 1em;
+  background: linear-gradient(90deg, #9da0ff 2.5%, #ffffff 5%, #ffffff 90%, #9da0ff 92.5%);
+
+  width: 40em;
+  padding: 1em 5em 1em 1.75em;
+}
+.border-red {
+  border: grey;
+  border-style: solid;
+  border-radius: 1em;
+  background: linear-gradient(90deg, #ff9d9d 2.5%, #ffffff 5%, #ffffff 90%, #ff9d9d 92.5%);
+
+  width: 40em;
+  padding: 1em 5em 1em 1.75em;
+}
+.border-pur {
+  border: grey;
+  border-style: solid;
+  border-radius: 1em;
+  background: linear-gradient(90deg, #b700ff 2.5%, #ffffff 5%, #ffffff 90%, #b700ff 92.5%);
+
+  width: 40em;
+  padding: 1em 5em 1em 1.75em;
+}
 .center {
   display: flex;
   flex-direction: row;
@@ -204,25 +233,17 @@ footer button:hover {
   padding-bottom: 1vh;
   background: linear-gradient(90deg, #b700ff, #9da0ff, #b700ff);
 }
-.nav-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  justify-content: center;
-}
 .nav-list, svg {
   display: flex;
   gap: clamp(var(--size-400), 5vw, var(--size-800));
   font-weight: var(--fw-semi-bold);
   text-decoration: none;
   justify-content: center;
+  text-align: center;
 }
 .nav-link {
 background: transparent;
 cursor: pointer;
-}
-.footer-nav {
-
 }
 .mobile-nav-toggle {
   display: none;
