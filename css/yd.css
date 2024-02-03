@@ -88,6 +88,7 @@ li {
 }
 a {
   text-decoration: none;
+  color: #b700ff;
 }
 li a:where(:hover, :focus) {
   color: #000;
@@ -138,6 +139,9 @@ footer button:hover {
   .even-columns {
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
+  }
+  body {
+    margin: 0em 20rem 0em 20rem;
   }
 }
 @media (max-width: 50em) {
