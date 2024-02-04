@@ -101,7 +101,7 @@ footer {
   display: flex;
   columns: 3;
   padding-top: 2vh;
-  position: absolute;
+  padding-bottom: 2vh;
 
   color: #0f0f0f;
   background: #9da0ff;
@@ -144,7 +144,7 @@ footer button:hover {
     grid-auto-columns: 1fr;
   }
   body {
-    margin: 0em 20rem 0em 20rem;
+    padding: 0em 20rem 0em 20rem;
   }
 }
 @media (max-width: 50em) {
