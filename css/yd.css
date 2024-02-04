@@ -100,9 +100,12 @@ nav {
 footer {
   display: flex;
   columns: 3;
-  padding-top: 3vh;
+  padding-top: 2vh;
+  position: absolute;
+
   color: #0f0f0f;
   background: #9da0ff;
+  bottom: 0;
   margin-top: auto;
   overflow: hidden;
 }
@@ -236,10 +239,28 @@ footer button:hover {
 .primary-header {
   padding-top: 1vh;
   padding-bottom: 1vh;
-  background: linear-gradient(90deg, #b700ff80, #9da0ff, #b700ff80);
+  background: #9da0ff;
 }
 .nav-list, svg {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+
+  gap: clamp(var(--size-400), 5vw, var(--size-800));
+  font-weight: var(--fw-semi-bold);
+  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+}
+.nav-listt, svg {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+
   gap: clamp(var(--size-400), 5vw, var(--size-800));
   font-weight: var(--fw-semi-bold);
   text-decoration: none;
@@ -259,15 +280,11 @@ cursor: pointer;
 .listing{
   display: grid;
   grid-auto-flow: dense;
-  margin: .5rem;
-  padding: .5rem;
-  gap: .75rem;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
   container-type: inline-size;
 }
 .listing img {
   border-radius: 1em;
-  max-width: fit-content;
 }
 .listing button:hover{
   transform: scale(1.05);
