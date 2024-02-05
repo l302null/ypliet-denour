@@ -205,17 +205,20 @@ footer button:hover {
   border-radius: 1em;
   background: linear-gradient(90deg, #9da0ff 2.5%, #0f0f0f 5%, #0f0f0f 90%, #9da0ff 92.5%);
 
-  width: 40em;
-  padding: 1em 5em 1em 1.75em;
+  max-width: 100%;
+  padding: 0.5em 5em 0.5em 1.75em;
+  margin: 0rem 1rem 0rem 1rem;
 }
 .border-red {
   border: #272727;
   border-style: solid;
   border-radius: 1em;
+  color: #f1f1f1;
   background: linear-gradient(90deg, #ff9d9d 2.5%, #0f0f0f 5%, #0f0f0f 90%, #ff9d9d 92.5%);
 
-  width: 40em;
-  padding: 1em 5em 1em 1.75em;
+  max-width: 100%;
+  padding: 0.5em 5em 0.5em 1.75em;
+  margin: 0rem 1rem 0rem 1rem;
 }
 .border-pur {
   border: #272727;
@@ -224,8 +227,9 @@ footer button:hover {
   color: #f1f1f1;
   background: linear-gradient(90deg, #b700ff80 2.5%, #0f0f0f 5%, #0f0f0f 90%, #b700ff80 92.5%);
 
-  width: 40em;
-  padding: 1em 5em 1em 1.75em;
+  max-width: 100%;
+  padding: 0.5em 5em 0.5em 1.75em;
+  margin: 0rem 1rem 0rem 1rem;
 }
 .center {
   display: flex;
@@ -282,6 +286,9 @@ cursor: pointer;
   grid-auto-flow: dense;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
   container-type: inline-size;
+  gap: 1rem;
+
+  padding: 0.5em 5em 0.5em 1.75em;
 }
 .listing img {
   border-radius: 1em;
