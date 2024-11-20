@@ -200,16 +200,69 @@
                         at 1:1.1, or 1x1.1 instances of input signal. as we reach 1:2, or 1x2 instances of input signal, your quiet sounds 
                         will be 2x louder than before while your loudest sound will be half as loud, all relative to the average volume of your 
                         input signal</p><br>
-                        
-                    <p>Threshold
-                        is an on switch. Any input after the threshold will be reduced however many times your ratio is set to. Volume may 
+
+                    <p>Threshold<br>
+                        is a goal post. Any input after the threshold will be reduced however many times your ratio is set to. Volume may 
                         exceed the threshold, but only after surpassing so many decibles of gain per magnitude of ratio.</p><br>
-                    
-                    </p><br><hr>
+
+                    <p>Range<br>
+                        is vital to compression. It allows the user to determine what noise is undesirable while also preserving the most 
+                        dynamics.</p><br>
+
+                    <p>Attack<br>
+                        is the amount of time a compressor needs to respond to input signal.  A short attack creates snappy compression, 
+                        but may be prone to pops and clicks.  A long attack will be more stable, but requires time to meet your compressors 
+                        output.<br><br>
+                        
+                        Analog compressors used to use tiny lightbulbs known as diodes. The input signal would create voltage. Analog 
+                        compressors would respond to this using the diode. This phenomenon is also referred to as "bloom".</p><br>
+
+                    <p>Release<br>
+                        like attack, functions on an envelope - refer to #adsr. Release plays with attack by holding the compression intensity 
+                        after input signal has reduced or faded.</p><br>
+
+                    <p>Expansion/Upward<br>
+                        Provided this is a feature of your compressor, expansion will focus on boosting your signal up-to and past your threshold.<br>
+                        
+                        Downward is the normal function of a compressor as its explained above. It is not typically a "feature" of compressors as 
+                        downward compression is the primary function.</p><br>
+
+                    <p>Knee<br>
+                        is the intensity of the compressor's specific output. As input signal reaches threshold cieling, signal will be reduced. 
+                        Input signal below threshold will be compressed either in a linear fashion as per ratio parameters.<br><br>
+                        
+                        Imagine that the threshold is the rendevouz for the loudest and quietest sounds, while the knee determines how much give 
+                        the compressor allows.</p><br>
+
+                    <p>Lookahead<br>
+                        Looks ahead of your input signal. It will compensate for the bloom affect of your compression. By allowing the compressor 
+                        to see what signal is coming before it arrives, you can reduce inconsistencies in the source.<br><br>
+                        
+                        Lookahead works both with and against attack depending on your usage.[...]</p><br>
+                        
+                    <p>In defense of multiple compressors<br>
+                        A solid case use would be [eq>comp>vocoder>delay>comp>eq>saturator]. The reason for this is vocoders tend to make sounds 
+                        much darker than before and also make your signal quieter if not inaudible. Compressing again average out your high end 
+                        and low end and make the audible spectrum balanced once more while retaining your mids, depending on how aggressive your 
+                        compression ratio is.</p><br><hr>
                 </section>
                 <section style="margin: 1em;">
-                    <h2>Phase</h2><br>
-                    <p></p><br><hr>
+                    <h2>Noise</h2><br>
+                    <p>Dynamic Range<br>
+                        consists of your noise floor and noise ceiling. The noise floor is often below -60db on analog devices, but may reach -inf 
+                        on digital devices. Your absolute noise ceiling will always be -0db. If you wish to lower your noise ceiling, this setting 
+                        would be called threshold.</p><br>
+                        
+                    <p>Noise Floor<br>
+                        is a concept that applies to all generative sources. This can be a microphone or a synth. The noise floor is variable 
+                        and can consist of/include feedback from electrical interference, mechanical/digital artifacts, and other unintentional 
+                        sources of noise.<br>
+                        
+                        In reference to gating or compression, the noise floor is a cutoff for the lowest source of input. This is vital in 
+                        compression because compressors average the min/max of your signal.</p><br>
+
+                        <p>Noise Cieling<br>
+                        Similar to threshold, noise cieling is the absolute max volume analog devices can record at.[...]</p><br><hr>
                 </section>
                 <section style="margin: 1em;">
                     <h2>Phase</h2><br>
