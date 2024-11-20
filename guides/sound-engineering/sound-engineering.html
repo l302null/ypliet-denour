@@ -25,29 +25,30 @@
             <div>
                 <section style="margin: 1em;">
                     <h2>Wave Shapes</h2><br>
-                    <p>sine waves<br>
+
+                    <p>Sine Waves<br>
                     have a single fundamental and 0 harmonics. On a 2D plane, they make a parabola. 
                     In the real world, they project a perfect circle.
                     You may utilize a sine in the same way you may use a phase.<br><br>
 
-                    square waves<br>
+                    Square Waves<br>
                         only move up and down on a 2D plane, but they take the shape of a square when 
                         played in the real world. this can be tested using a driver, a metal plate, and 
                         sand. They have an infinitely repeating harmonic spectrum which is best used with 
                         filters the cut the high end.<br><br>
 
-                    saw waves<br>
+                    Saw Waves<br>
                         lose high end at their peak. In other words, the volume of a saw wave's harmonics 
                         decrease in volume in a linear manner. This rounding of the top end is caused by 
                         an exponential loss of amplitude, much like you would see in a low pass filter.<br><br>
 
-                    triangle waves<br>
+                    Triangle Waves<br>
                         add subtle harmonic content due to the linear sequencing of the waveform. you 
                         receive more highs than you would from a sine, but less than a saw. triangles 
                         were used in soundcards with low sample rates to mimic a sine, but have an 
                         equally important place in analog history.<br><br>
 
-                    pulse wave<br>
+                    Pulse Wave<br>
                         is a form of wave shape manipulation that takes the beginning of a wave cycle and 
                         creates a linear fold, much like one would see in a square. There are few sounds 
                         like a pulse wave, but should be saved for use in deliberate situations. Where 
@@ -55,6 +56,7 @@
                 </section>
                 <section style="margin: 1em;">
                     <h2>Phase</h2><br>
+
                     <p>means many things. As an all-purpose definition, phase is position. Phase is your 
                         position in your stereo field, spectral field, and in time.<br><br>              
 
@@ -96,6 +98,36 @@
                         
                         Increasing the resonance of filters (includes flanger, chorus, phaser) allows you to reharmonize 
                         or sweep existing harmonic content with more aggressive tonality.</p><br><hr>
+                </section>
+                <section style="margin: 1em;">
+                    <h2>Harmonic Series</h2><br>
+
+                    <p>The Harmonic Series is made up of fractions on the fundemental level. As a rule, you may add +1 note for every octave 
+                        from 0 up.<br>
+                        Octave 0 (sub) takes up so much amplitude that it only has room for 1 note. This is why sub bass is monophonic in 
+                        european derived music. If you do not stick to this guideline, your sub will oscilate as it phases with accompanying 
+                        notes.<br><br>
+                        
+                        In octave 1 (bass), it is in your best interest to stick to 5ths (7 semitones apart). E and B, D and A and so on. 
+                        The circle of 5ths creates something similar to a double helix. An easier way to visualize this is to call back to our 
+                        +1 rule. Octave 1 now allows for notes to share 1/2 of the space.<br><br>
+
+                        Octave 2 (lower mid) now allows for 1/3rd of space without notes clashing. Just like how we had to split our 12 tone 
+                        scale into 7 steps apart, 1/3rd would allow us to savely use - i will be fact checking this later<br><br>
+                        
+                        For octave 3 (mids), the +1 rule begins to disolve. Notes spaced 1 semitone apart now work in the context of larger 
+                        chords. You can layer up from the sub/0 octave using the afformentioned tools on real instruments or in orchestrated 
+                        pieces with no issues. Key takeaways for the 3rd octave are that all prevelant chords often take place here in middle C 
+                        or around a4/440hz. Your dominants, flats, augmented, relative, dimishinished, minor, major, etc. will sound right<br><br>
+                    
+                        In regards to synthesis,<br>
+                        a harmonic series will tell you about overtones, organic treble bleed, where your strongest harmonic lies (if not the 
+                        fundemental), the peaks and troughs in your (in)audible spectrum, and how best to use any waveform. I will never encourage 
+                        you to use a saw wave because it sounds like a saw wave, but rather because saws have a built in cutoff and make your 
+                        mids pop with less effort. Same goes for using a sine wave. If you need more bass, a sine wave will be loudest. A sine 
+                        wave can also suggest the dominant note of your harmonies. You may place a single note sine behind any chord where you 
+                        want to suggest a moody E in place of a prominent F# of a B Major. You may also use a sine to shape the timbre of your 
+                        singer by backing their lead melody.</p><br><hr>
                 </section>
                 <section style="margin: 1em;">
                     <h2>Distortion</h2><br>
@@ -140,8 +172,8 @@
                         If you didn't mean to go red and it sounds bad, the distortion is bad. No argument there. If the signal has gone 
                         red and it sounds good, keep it or figure out ways to recreate it intentionally with waveshaping and bias with EQ</p><br>
 
-                    <p>in regard to streaming services<br><br>
-                        ⁠From Mix to Master⁠ Headroom may be lost when gainstaging is too aggressive. This is not a real issue since audio 
+                    <p>In regard to streaming services,<br>
+                        Headroom may be lost when gainstaging is too aggressive. This is not a real issue since audio 
                         codecs do not actually "turn down" your audio. It is simply compressed/normalized to the loudest average. If you 
                         listen to songs on soundcloud and again on youtube, loud music is loud because the master is loud.<br><br>
                         
@@ -153,12 +185,27 @@
                         see how hard you can push the output on your limiter</p><br><hr>
                 </section>
                 <section style="margin: 1em;">
-                    <h2>Phase</h2><br>
-                    <p></p><br><hr>
-                </section>
-                <section style="margin: 1em;">
-                    <h2>Phase</h2><br>
-                    <p></p><br><hr>
+                    <h2>Compression</h2><br>
+                    <p>Compression<br>
+                        is the act of normalizing a sound. Your noise floor/ceiling are set by the user or compressor. After your dynamic 
+                        range is set, your signal is averaged using multiples. 10x would lead to very flat, quiet sound. 2x would lead to a 
+                        dynamic, but volatile waveform.<br><br>
+                        
+                        It is best to use only as much compression as needed and saturate the rest. Multiple compressors in parallel will 
+                        rarely benefit the end user unless the goal is to set multiple back to back and create an infinite decay or an overly 
+                        noisy sound.<br><br>
+
+                    <p>Ratio<br>
+                        is the factor in which a compressor averages an audio signal. It is not uncommon for high quality compressors to begin 
+                        at 1:1.1, or 1x1.1 instances of input signal. as we reach 1:2, or 1x2 instances of input signal, your quiet sounds 
+                        will be 2x louder than before while your loudest sound will be half as loud, all relative to the average volume of your 
+                        input signal</p><br>
+                        
+                    <p>Threshold
+                        is an on switch. Any input after the threshold will be reduced however many times your ratio is set to. Volume may 
+                        exceed the threshold, but only after surpassing so many decibles of gain per magnitude of ratio.</p><br>
+                    
+                    </p><br><hr>
                 </section>
                 <section style="margin: 1em;">
                     <h2>Phase</h2><br>
