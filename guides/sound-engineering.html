@@ -13,9 +13,20 @@
 </head>
 <body>
     <header class="primary-header">
-        <nav>
-            <button type="button"><a title="Home" href="..\index.html"><img style="width: 3em;" src="..\img/ypliet/yd.svg" alt="Home"></a></button>
-        </nav>
+        <div id="main-nav" role="navigation" aria-label="Main">
+            <nav>
+            <button class="mobile-nav-toggle">
+                <img class="menu-open" src="../img/ypliet/ypliet denour logo linear V1.svg" alt="Ypliet Denour">
+                <img class="menu-close" src="../img/icon/icons8-email-96.png">
+            </button>
+            <ul class="nav-list" id="primary-nav">
+                <li><button type="button"><a title="Home" href="../index.html"><img style="width: 3em;" src="../img/ypliet/yd.svg" alt="Home"></a></button></li>
+                <li><a class="nav-link" href="../music.html">Music</a></li>
+                <li><a class="nav-link" href="../merch.html">Merch</a></li>
+                <li><a class="nav-link" href="../tour.html">Shows</a></li>
+            </ul>
+            </nav>
+        </div>
     </header>
     <head>
         <h1 hidden>Ypliet Denour</h1>
@@ -266,8 +277,26 @@
                         Similar to threshold, noise cieling is the absolute max volume analog devices can record at.[...]</p><br><hr>
                 </section>
                 <section style="margin: 1em;">
-                    <h2>Phase</h2><br>
-                    <p></p><br><hr>
+                    <h2>Stereo & Width</h2><br>
+                    <p>There are a few methods to achieve stereo depth and they are often some form of delay, panning, or unison(phase).</p>
+
+                    <p>Haas:
+                        is a delay effect. The haas effect is any amount of separation of the left and right channel by/up to 20ms.</p>
+                        
+                    <p>Panning:
+                        is the most primitive, but easily the most versatile. You may reduce sounds to mono to take clutter out of a mix without 
+                        reducing bass/increase the presence of high end without increasing the volume. You can turn the rate off on a phaser and 
+                        separate each pole/phase individually. You can take 2 unique recordings and pan them into the left and right channel 
+                        respectively to create an artificial unison.</p>
+                        
+                    <p>Unison:
+                        is not exclusive to synthesizers, but is most commonly associated with them. Flangers and chorus create false unison using 
+                        delay. Synths create true unison by playing multiple instances of an oscillator out of phase, often in stereo. A unison mix 
+                        may then be used like a volume knob.</p>
+                         
+                        Stereo Separation
+                        Width
+                        Depending on the function, width is nothing more than a saturation of the stereo field. Best rule of thumb is increase stereo saturation as we increase in pitch.</p><br><hr>
                 </section>
                 <section style="margin: 1em;">
                     <h2>Phase</h2><br>
@@ -293,7 +322,7 @@
     <div class="container">
         <div class="even-columns">
             <div>
-                <a href="..\..\home\index.html"><img src="..\img\ypliet\ypliet denour logo linear V1.svg" style="height: 10svh;"></a>
+                <a href="..\index.html"><img src="..\img\ypliet\ypliet denour logo linear V1.svg" style="height: 10svh;"></a>
                 <ul role="list" class="center">
                     <li><button type="button"><a title="facebook" href="https://www.facebook.com/yplietdenour" target="_blank"><img class="icon" src="..\img\icon\facebook.svg"></a></button></li>
                     <li><button type="button"><a title="instagram" href="https://www.instagram.com/yplietdenour/" target="_blank"><img class="icon" src="..\img\icon\instagram.svg"></a></button></li>
