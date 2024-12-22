@@ -89,10 +89,13 @@ li {
 }
 a {
   text-decoration: none;
-  color: #fff;
+  color: #b96d6d;
 }
-li a:where(:hover, :focus) {
-  color: #fff;
+nav a {
+  color: #0f0f0f;
+}
+li a:where(:hover, :focus), footer li a:where(:hover, :focus) {
+  color: #f1f1f1;
 }
 nav {
   -webkit-transition: background 0.8s;
@@ -104,11 +107,13 @@ footer {
   padding-top: 2vh;
   padding-bottom: 2vh;
 
-  color: #0f0f0f;
   background: #9da0ff;
   bottom: 0;
   margin-top: auto;
   overflow: hidden;
+}
+footer, footer a, footer p {
+  color: #0f0f0f;
 }
 footer li a {
   margin-left: 40px;
