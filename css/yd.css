@@ -89,7 +89,7 @@ li {
 }
 a {
   text-decoration: none;
-  color: #b96d6d;
+  color: #9da0ff;
 }
 nav a {
   color: #0f0f0f;
@@ -100,6 +100,9 @@ li a:where(:hover, :focus), footer li a:where(:hover, :focus) {
 nav {
   -webkit-transition: background 0.8s;
   transition: background 0.8s;
+}
+body a{
+  
 }
 footer {
   display: flex;
@@ -254,6 +257,14 @@ footer button:hover {
 .even-columns {
   display: grid;
   gap: 1rem;
+}
+.uneven-columns {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1rem;
+}
+.item1 {
+  grid-column: 1 / span 2;
 }
 .primary-header {
   padding-top: 1vh;
