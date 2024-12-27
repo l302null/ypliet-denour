@@ -159,7 +159,7 @@
                         
                         Distortion specifically comes from pushing harmonic content past its peak, a.k.a. clipping.</p><br>
 
-                    <p>Harmonic distortion<br>
+                    <p>Harmonic distortion:<br>
                         in treble, distortion creates pink to white noise depending on the intensity of the high end. 
                         In bass, it will create humming and eventually the classic squared out sound.<br><br>
                         
@@ -178,7 +178,7 @@
                         will always happen after signal passes 0db, saturation will catch peaked harmonics on the way up and 
                         turn clipped signal into something more musical.</p><br>
                         
-                    <p>Clipping<br>
+                    <p>Clipping:<br>
                         is a term that is poorly defined. The act of clipping itself is not up to interpretation. In the context 
                         of live audio, clipping is objectively bad. Analog clipping rips speaker coness and overloads hardware, which 
                         causes heat damage.<br><br>
@@ -208,7 +208,7 @@
                 </section>
                 <section style="margin: 1em;">
                     <h2 id="compr">Compression</h2><br>
-                    <p>Compression<br>
+                    <p>Compression:<br>
                         is the act of normalizing a sound. Your noise floor/ceiling are set by the user or compressor. After your dynamic 
                         range is set, your signal is averaged using multiples. 10x would lead to very flat, quiet sound. 2x would lead to a 
                         dynamic, but volatile waveform.<br><br>
@@ -217,21 +217,21 @@
                         rarely benefit the end user unless the goal is to set multiple back to back and create an infinite decay or an overly 
                         noisy sound.<br><br>
 
-                    <p>Ratio<br>
+                    <p>Ratio:<br>
                         is the factor in which a compressor averages an audio signal. It is not uncommon for high quality compressors to begin 
                         at 1:1.1, or 1x1.1 instances of input signal. as we reach 1:2, or 1x2 instances of input signal, your quiet sounds 
                         will be 2x louder than before while your loudest sound will be half as loud, all relative to the average volume of your 
                         input signal</p><br>
 
-                    <p>Threshold<br>
+                    <p>Threshold:<br>
                         is a goal post. Any input after the threshold will be reduced however many times your ratio is set to. Volume may 
                         exceed the threshold, but only after surpassing so many decibles of gain per magnitude of ratio.</p><br>
 
-                    <p>Range<br>
+                    <p>Range:<br>
                         is vital to compression. It allows the user to determine what noise is undesirable while also preserving the most 
                         dynamics.</p><br>
 
-                    <p>Attack<br>
+                    <p>Attack:<br>
                         is the amount of time a compressor needs to respond to input signal.  A short attack creates snappy compression, 
                         but may be prone to pops and clicks.  A long attack will be more stable, but requires time to meet your compressors 
                         output.<br><br>
@@ -239,30 +239,30 @@
                         Analog compressors used to use tiny lightbulbs known as diodes. The input signal would create voltage. Analog 
                         compressors would respond to this using the diode. This phenomenon is also referred to as "bloom".</p><br>
 
-                    <p>Release<br>
+                    <p>Release:<br>
                         like attack, functions on an envelope - refer to #adsr. Release plays with attack by holding the compression intensity 
                         after input signal has reduced or faded.</p><br>
 
-                    <p>Expansion/Upward<br>
+                    <p>Expansion/Upward:<br>
                         Provided this is a feature of your compressor, expansion will focus on boosting your signal up-to and past your threshold.<br>
                         
                         Downward is the normal function of a compressor as its explained above. It is not typically a "feature" of compressors as 
                         downward compression is the primary function.</p><br>
 
-                    <p>Knee<br>
+                    <p>Knee:<br>
                         is the intensity of the compressor's specific output. As input signal reaches threshold cieling, signal will be reduced. 
                         Input signal below threshold will be compressed either in a linear fashion as per ratio parameters.<br><br>
                         
                         Imagine that the threshold is the rendevouz for the loudest and quietest sounds, while the knee determines how much give 
                         the compressor allows.</p><br>
 
-                    <p>Lookahead<br>
+                    <p>Lookahead:<br>
                         Looks ahead of your input signal. It will compensate for the bloom affect of your compression. By allowing the compressor 
                         to see what signal is coming before it arrives, you can reduce inconsistencies in the source.<br><br>
                         
                         Lookahead works both with and against attack depending on your usage.[...]</p><br>
                         
-                    <p>In defense of multiple compressors<br>
+                    <p>In defense of multiple compressors,<br>
                         A solid case use would be [eq>comp>vocoder>delay>comp>eq>saturator]. The reason for this is vocoders tend to make sounds 
                         much darker than before and also make your signal quieter if not inaudible. Compressing again average out your high end 
                         and low end and make the audible spectrum balanced once more while retaining your mids, depending on how aggressive your 
@@ -288,25 +288,26 @@
                 </section>
                 <section style="margin: 1em;">
                     <h2 id="stwid">Stereo & Width</h2><br>
-                    <p>There are a few methods to achieve stereo depth and they are often some form of delay, panning, or unison(phase).</p>
+                    <p>Wideness is loudness.<br>
+                        Width is nothing more than a saturation of the stereo field. There are a few methods to achieve stereo depth and they 
+                        are often some form of delay, panning, or unison(phase). Best rule of thumb is increase stereo saturation as we 
+                        increase in pitch.</p><br>
 
-                    <p>Haas:
-                        is a delay effect. The haas effect is any amount of separation of the left and right channel by/up to 20ms.</p>
+                    <p>Haas:<br>
+                        is a delay effect. The haas effect is any amount of separation of the left and right channel by/up to 20ms.</p><br>
                         
-                    <p>Panning:
+                    <p>Panning:<br>
                         is the most primitive, but easily the most versatile. You may reduce sounds to mono to take clutter out of a mix without 
                         reducing bass/increase the presence of high end without increasing the volume. You can turn the rate off on a phaser and 
                         separate each pole/phase individually. You can take 2 unique recordings and pan them into the left and right channel 
-                        respectively to create an artificial unison.</p>
+                        respectively to create an artificial unison.</p><br>
                         
-                    <p>Unison:
+                    <p>Unison:<br>
                         is not exclusive to synthesizers, but is most commonly associated with them. Flangers and chorus create false unison using 
                         delay. Synths create true unison by playing multiple instances of an oscillator out of phase, often in stereo. A unison mix 
-                        may then be used like a volume knob.</p>
+                        may then be used like a volume knob.</p><br>
                          
-                        Stereo Separation
-                        Width
-                        Depending on the function, width is nothing more than a saturation of the stereo field. Best rule of thumb is increase stereo saturation as we increase in pitch.</p><br><hr>
+                    <p>Stereo Separation:<br></p><br><hr>
                 </section>
                 <section style="margin: 1em;">
                     <h2>Phase</h2><br>
