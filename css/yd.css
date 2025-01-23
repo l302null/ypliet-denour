@@ -203,16 +203,7 @@ footer button:hover {
 .padding-block-700 {
   padding-block: var(--size-700)
 }
-.icon {
-  width: 1.5em;
-  height: 1.5em;
-}
-.container {
-  --max-width: 1240px;
-  --padding: 1rem;
-  width: min(var(--max-width), 100% - ( var(--padding) * 2));
-  margin-inline: auto;
-}
+
 .border-blu {
   border: #272727;
   border-style: solid;
@@ -254,6 +245,12 @@ footer button:hover {
   padding: 0.5em 5em 0.5em 1.75em;
   margin: 0rem 1rem 0rem 1rem;
 }
+.container {
+  --max-width: 1240px;
+  --padding: 1rem;
+  width: min(var(--max-width), 100% - ( var(--padding) * 2));
+  margin-inline: auto;
+}
 .center {
   display: flex;
   flex-direction: row;
@@ -280,15 +277,34 @@ footer button:hover {
   display: grid;
   gap: 1rem;
 }
-.primary-header {
-  padding-top: 1vh;
-  padding-bottom: 1vh;
-  background: #9da0ff;
-}
 .guides-header {
   padding-top: 1vh;
   padding-bottom: 1vh;
   background: #7da0ff;
+}
+.icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+.listing{
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
+  container-type: inline-size;
+  gap: 1rem;
+
+  padding: 0.5em 1.75em 0.5em 1.75em;
+}
+.listing img {
+  border-radius: 1em;
+}
+.listing button:hover{
+  transform: scale(1.05);
+  transform-origin: center;
+  transition: all 0.2s ease-in-out;
+}
+.mobile-nav-toggle {
+  display: none;
 }
 .nav-list, svg {
   display: flex;
@@ -319,27 +335,13 @@ footer button:hover {
 .nav-link {
 cursor: pointer;
 }
-.mobile-nav-toggle {
-  display: none;
-}
+
 .opened {
   display: block;
   position: fixed;
 }
-.listing{
-  display: grid;
-  grid-auto-flow: dense;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
-  container-type: inline-size;
-  gap: 1rem;
-
-  padding: 0.5em 5em 0.5em 1.75em;
-}
-.listing img {
-  border-radius: 1em;
-}
-.listing button:hover{
-  transform: scale(1.05);
-  transform-origin: center;
-  transition: all 0.2s ease-in-out;
+.primary-header {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  background: #9da0ff;
 }
