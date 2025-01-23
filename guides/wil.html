@@ -45,7 +45,7 @@
             </nav>
         </div>
         <div class="padding-block-700">
-            <p>hey hi this is an archive and eventual new home for my career journal.<br><br>
+            <p style="max-width: 70%;">hey hi this is an archive and eventual new home for my career journal.<br><br>
     
             i will write about my findings on what has brought me success in the music industry and adjacent creative ventures.
             please email me or message me on any social media platform with ideas for new entries or questions. thank you.
@@ -594,12 +594,12 @@
         </div>
     </main>
 </body>
-<footer loading="lazy" class="bg-neutral-900 text-neutral-100" id="footer">
+<footer loading="lazy" class="text-neutral-100" id="footer">
     <hr>
     <div class="container">
         <div class="even-columns">
             <div>
-                <a href="..\index.html"><img src="..\img\ypliet\ypliet denour logo linear V1.svg" style="height: 10svh;"></a>
+                <a href="..\index.html"><img src="..\img/ypliet/ypliet denour logo linear V1.svg" style="height: 10svh;"></a>
                 <ul role="list" class="center">
                     <li><button type="button"><a title="facebook" href="https://www.facebook.com/yplietdenour" target="_blank"><img class="icon" src="..\img\icon\facebook.svg"></a></button></li>
                     <li><button type="button"><a title="instagram" href="https://www.instagram.com/yplietdenour/" target="_blank"><img class="icon" src="..\img\icon\instagram.svg"></a></button></li>
@@ -608,7 +608,31 @@
                     <li><button type="button"><a title="soundcloud" href="https://soundcloud.com/yplietdenour" target="_blank"><img class="icon" src="..\img\icon\soundcloud.svg"></a></button></li>
                 </ul>
             </div>
+            <div>
+                <nav id=footer-nav aria-label="Footer" class="footer-nav center" style="align-content: center;">
+                    <ul>
+                        <li><a class="nav-link" href="..\index.html">Home</a></li>
+                        <li><a class="nav-link" href="..\music.html">Music</a></li>
+                        <li><a class="nav-link" href="..\merch.html">Merch</a></li>
+                        <li><a class="nav-link" href="..\tour.html">Shows</a></li>
+                    </ul>
+                    <ul>
+                        <li><a class="nav-link" href="..\guides.html">Guides</a></li>
+                        <li><a class="nav-link" href="..\epk.html">EPK</a></li>
+                        <li><a class="nav-link" href="..\contact.html">Contact</a></li>
+                        <li><a class="nav-link" href="..\privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <form action="..\sign_up.py">
+                    <label for="email">Join Ypliet's mailing list for updates and discounts.</label><br>
+                    <input type="email" id="email" name="email">
+                    <input type="submit">
+                </form>
+                <p>&copy; Ypliet Denour</p>
+            </div>
         </div>
-        <section style="padding: 1em;"></section>
+    </div>
 </footer>
 </html>
