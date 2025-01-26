@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-    <meta charset="utf-8" name="description">
-    <meta name="viewport" content="width=device-width", initial-scale="1.0">
-    <link rel="stylesheet" href="..\css\yd.css">
-    <link rel="stylesheet" href=>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <link rel="stylesheet" href="../css/yd.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap">
-    <link rel="shortcut icon" type="..\image/x-icon" href="..\img\icon\YD-L.ico?">
+    <link rel="shortcut icon" type="../image/x-icon" href="../img/icon/YD-L.ico?">
     <title>the Silent few</title>
 </head>
 <body>
@@ -16,8 +15,8 @@
         <div id="main-nav" role="navigation" aria-label="Main">
             <nav>
             <button class="mobile-nav-toggle">
-                <img class="menu-open" src="../img/ypliet/ypliet denour logo linear V1.svg" alt="Ypliet Denour">
-                <img class="menu-close" src="../img/icon/icons8-email-96.png">
+                <img class="menu-open" src="../img/ypliet/ypliet denour logo linear V1.svg" alt="dropdown_open">
+                <img class="menu-close" src="../img/icon/icons8-email-96.png" alt="dropdown_close">
             </button>
             <ul class="nav-list" id="primary-nav">
                 <li><button type="button"><a title="Home" href="../index.html"><img style="width: 3em;" src="../img/ypliet/yd.svg" alt="Home"></a></button></li>
@@ -67,7 +66,7 @@
                         <p>Compression sidechaining is not an accurate method as it computes incoming signal
                             in real time. No matter how effective your hardware is, there could be a 10ms 
                             delay up to 100ms delay in the form of bloom. You may learn more about bloom 
-                            in <u>compression</u>.<br><br>
+                            in <a href="sound-engineering.html"><u>compression</u></a>.<br><br>
                             
                             The best use case of compression sidechaining is to duck one instrument using 
                             signal from a second instrument. Some examples would be a broadband sidechain 
@@ -143,10 +142,12 @@
 
                     <h3 style="font-weight: 600; margin: 0.75em;">Processing Vocals</h3>
                     <p>A rule of thumb when processing vocals is to focus, rather than cut. The human voice has a 
-                        built in bandpass filter called the "mouth". It is a device our ancestors have used since 
-                        the dawn of time to make engrossing and innovative music.<br><br>
+                        built in bandpass filter called "lips". Lips are a device our ancestors have used since 
+                        the dawn of time to captivate and enthrall.<br><br>
 
-                        Now that we understand our instrument, first steps should be a de-esser and a gate. 
+                        Now that we understand our instrument, first steps should be a 
+                        <a href=""><u>de-esser</u></a> and a 
+                        <a href=""><u>gate</u></a>. 
                         If this is your first introduction to raw audio, the gate will kinda stick its hand on the 
                         forehead of background noise and tell it to keep swinging. because the gate will not let 
                         it into the mix. that simple. Your de-esser will read frequencies where human voices generally 
@@ -178,11 +179,17 @@
                         time fx and throw a soft clipper at the end.</p><br>
                         
                         <h3 style="font-weight: 600; margin: 0.75em;">Mixing Vocals</h3>
+                        <p>I sidechain my vocals into my mixdowns. Whether it is a guitar, a pluck, vocals, percs, kick, snare... 
+                            we use our vocals as an input signal to make room.<br><br>
+
+                            In addition to creating room for the vocals, you want your stereo mix to come from comping 
+                            and harmony. Take Billie Eilish for instance. Her harmonies will be hard panned like guitars 
+                            while her lead vocal track will be hard center. The lead vocals...[to be continued]</p><br>
                         <hr>
                 </section>
             </div>
             <div style="margin: 1em;">
-                <section>Index</section><br>
+                <h2>Index</h2><br>
                 <ol>
                     <li><a href="#daw">DAW 101</a></li>
                     <li><a href="#daw">Sidechain</a></li>
@@ -199,46 +206,46 @@
             </div>
         </div>
     </main>
-</body>
-<footer loading="lazy" class="text-neutral-100" id="footer">
-    <hr>
-    <div class="container">
-        <div class="even-columns">
-            <div>
-                <a href="..\index.html"><img src="..\img/ypliet/ypliet denour logo linear V1.svg" style="height: 10svh;"></a>
-                <ul role="list" class="center">
-                    <li><button type="button"><a title="facebook" href="https://www.facebook.com/yplietdenour" target="_blank"><img class="icon" src="..\img\icon\facebook.svg"></a></button></li>
-                    <li><button type="button"><a title="instagram" href="https://www.instagram.com/yplietdenour/" target="_blank"><img class="icon" src="..\img\icon\instagram.svg"></a></button></li>
-                    <li><button type="button"><a title="twitter" href="https://twitter.com/yplietdenour" target="_blank"><img class="icon" src="..\img\icon\twitter.svg"></a></button></li>
-                    <li><button type="button"><a title="discord" href="https://discord.gg/JT3PsUjxNv" target="_blank"><img class="icon" src="..\img\icon\discord.svg"></a></button></li>
-                    <li><button type="button"><a title="soundcloud" href="https://soundcloud.com/yplietdenour" target="_blank"><img class="icon" src="..\img\icon\soundcloud.svg"></a></button></li>
-                </ul>
-            </div>
-            <div>
-                <nav id=footer-nav aria-label="Footer" class="footer-nav center" style="align-content: center;">
-                    <ul>
-                        <li><a class="nav-link" href="..\index.html">Home</a></li>
-                        <li><a class="nav-link" href="..\music.html">Music</a></li>
-                        <li><a class="nav-link" href="..\merch.html">Merch</a></li>
-                        <li><a class="nav-link" href="..\tour.html">Shows</a></li>
+    <footer loading="lazy" class="text-neutral-100" id="footer">
+        <hr>
+        <div class="container">
+            <div class="even-columns">
+                <div>
+                    <a href="../index.html"><img src="../img/ypliet/ypliet_denour_logo_linear_V1.svg" style="height: 10svh;" alt="home"></a>
+                    <ul class="center">
+                        <li><button type="button"><a title="facebook" href="https://www.facebook.com/yplietdenour" target="_blank"><img class="icon" src="../img/icon/facebook.svg" alt="facebook"></a></button></li>
+                        <li><button type="button"><a title="instagram" href="https://www.instagram.com/yplietdenour/" target="_blank"><img class="icon" src="../img/icon/instagram.svg" alt="instagram"></a></button></li>
+                        <li><button type="button"><a title="twitter" href="https://twitter.com/yplietdenour" target="_blank"><img class="icon" src="../img/icon/twitter.svg" alt="twitter"></a></button></li>
+                        <li><button type="button"><a title="discord" href="https://discord.gg/JT3PsUjxNv" target="_blank"><img class="icon" src="../img/icon/discord.svg" alt="discord"></a></button></li>
+                        <li><button type="button"><a title="soundcloud" href="https://soundcloud.com/yplietdenour" target="_blank"><img class="icon" src="../img/icon/soundcloud.svg" alt="soundcloud"></a></button></li>
                     </ul>
-                    <ul>
-                        <li><a class="nav-link" href="..\guides.html">Guides</a></li>
-                        <li><a class="nav-link" href="..\epk.html">EPK</a></li>
-                        <li><a class="nav-link" href="..\contact.html">Contact</a></li>
-                        <li><a class="nav-link" href="..\privacy.html">Privacy Policy</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div style="display: flex; flex-direction: column;">
-                <form action="..\sign_up.py">
-                    <label for="email">Join Ypliet's mailing list for updates and discounts.</label><br>
-                    <input type="email" id="email" name="email">
-                    <input type="submit">
-                </form>
-                <p>&copy; Ypliet Denour</p>
+                </div>
+                <div>
+                    <nav id=footer-nav aria-label="Footer" class="footer-nav center" style="align-content: center;">
+                        <ul>
+                            <li><a class="nav-link" href="../index.html">Home</a></li>
+                            <li><a class="nav-link" href="../music.html">Music</a></li>
+                            <li><a class="nav-link" href="../merch.html">Merch</a></li>
+                            <li><a class="nav-link" href="../tour.html">Shows</a></li>
+                        </ul>
+                        <ul>
+                            <li><a class="nav-link" href="../guides.html">Guides</a></li>
+                            <li><a class="nav-link" href="../epk.html">EPK</a></li>
+                            <li><a class="nav-link" href="../contact.html">Contact</a></li>
+                            <li><a class="nav-link" href="../privacy.html">Privacy Policy</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <form action="../sign_up.py">
+                        <label for="email">Join Ypliet's mailing list for updates and discounts.</label><br>
+                        <input type="email" id="email" name="email">
+                        <input type="submit">
+                    </form>
+                    <p>&copy; Ypliet Denour</p>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
+</body>
 </html>
