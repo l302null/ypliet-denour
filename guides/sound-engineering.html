@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-    <meta charset="utf-8" name="description">
-    <meta name="viewport" content="width=device-width", initial-scale="1.0">
-    <link rel="stylesheet" href="..\css\yd.css">
-    <link rel="stylesheet" href=>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <link rel="stylesheet" href="../css/yd.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap">
-    <link rel="shortcut icon" type="..\image/x-icon" href="..\img\icon\YD-L.ico?">
+    <link rel="shortcut icon" type="../image/x-icon" href="../img/icon/YD-L.ico?">
     <title>the Silent few</title>
 </head>
 <body>
     <header class="primary-header">
         <div id="main-nav" role="navigation" aria-label="Main">
-            <nav aria-label="primary-nav">
+            <nav>
             <button class="mobile-nav-toggle">
-                <img class="menu-open" src="../img/ypliet/ypliet denour logo linear V1.svg" alt="Ypliet Denour">
+                <img class="menu-open" src="../img/ypliet/ypliet denour logo linear V1.svg" alt="dropdown_open">
+                <img class="menu-close" src="../img/icon/icons8-email-96.png" alt="dropdown_close">
             </button>
             <ul class="nav-list" id="primary-nav">
                 <li><button type="button"><a title="Home" href="../index.html"><img style="width: 3em;" src="../img/ypliet/yd.svg" alt="Home"></a></button></li>
@@ -27,10 +27,8 @@
             </nav>
         </div>
     </header>
-    <head>
-        <h1 hidden>Ypliet Denour</h1>
-    </head>
     <main>
+        <h1 hidden>Sound Engineering</h1>
         <div class="guides-header" id="guides-nav" role="navigation" aria-label="Guides Nav">
             <nav>
                 <ul class="nav-list">
@@ -141,10 +139,10 @@
                         For octave 3 (mids), the +1 rule begins to disolve. Notes spaced 1 semitone apart now work in the context of larger 
                         chords. You can layer up from the sub/0 octave using the afformentioned tools on real instruments or in orchestrated 
                         pieces with no issues. Key takeaways for the 3rd octave are that all prevelant chords often take place here in middle C 
-                        or around a4/440hz. Your dominants, flats, augmented, relative, dimishinished, minor, major, etc. will sound right<br><br>
+                        or around a4/440hz. Your dominants, flats, augmented, relative, dimishinished, minor, major, etc. will sound right</p><br>
                     
-                        In regards to synthesis,<br>
-                        a harmonic series will tell you about overtones, organic treble bleed, where your strongest harmonic lies (if not the 
+                    <h3 style="font-weight: 600; margin: 0.75em;">In regards to synthesis,</h3>
+                    <p>a harmonic series will tell you about overtones, organic treble bleed, where your strongest harmonic lies (if not the 
                         fundemental), the peaks and troughs in your (in)audible spectrum, and how best to use any waveform. I will never encourage 
                         you to use a saw wave because it sounds like a saw wave, but rather because saws have a built in cutoff and make your 
                         mids pop with less effort. Same goes for using a sine wave. If you need more bass, a sine wave will be loudest. A sine 
@@ -154,14 +152,15 @@
                 </section>
                 <section style="margin: 1em;">
                     <h2 style="font-weight: 700;" id="disto">Distortion</h2><br>
-                    <p>Distortion and saturation<br>
-                        are much like rectangles and squares. All distortion is saturation, and all saturation 
+
+                    <h3 style="font-weight: 600; margin: 0.75em;">Distortion and saturation</h3>
+                    <p>are much like rectangles and squares. All distortion is saturation, and all saturation 
                         distorts. The catch - Not all distortion will make a sound louder.<br><br>
                         
                         Distortion specifically comes from pushing harmonic content past its peak, a.k.a. clipping.</p><br>
 
-                    <p>Harmonic distortion:<br>
-                        in treble, distortion creates pink to white noise depending on the intensity of the high end. 
+                    <h3 style="font-weight: 600; margin: 0.75em;">Harmonic distortion</h3>
+                    <p>in treble, distortion creates pink to white noise depending on the intensity of the high end. 
                         In bass, it will create humming and eventually the classic squared out sound.<br><br>
                         
                         When you combine sub distortion with high end, it will make humming. With mids, it creates gargling 
@@ -179,8 +178,8 @@
                         will always happen after signal passes 0db, saturation will catch peaked harmonics on the way up and 
                         turn clipped signal into something more musical.</p><br>
                         
-                    <p>Clipping:<br>
-                        is a term that is poorly defined. The act of clipping itself is not up to interpretation. In the context 
+                    <h3 style="font-weight: 600; margin: 0.75em;">Clipping</h3>
+                    <p>is a term that is poorly defined. The act of clipping itself is not up to interpretation. In the context 
                         of live audio, clipping is objectively bad. Analog clipping rips speaker coness and overloads hardware, which 
                         causes heat damage.<br><br>
                         
@@ -195,8 +194,8 @@
                         If you didn't mean to go red and it sounds bad, the distortion is bad. No argument there. If the signal has gone 
                         red and it sounds good, keep it or figure out ways to recreate it intentionally with waveshaping and bias with EQ</p><br>
 
-                    <p>In regard to streaming services,<br>
-                        Headroom may be lost when gainstaging is too aggressive. This is not a real issue since audio 
+                    <h3 style="font-weight: 600; margin: 0.75em;">In regard to streaming services,</h3>
+                    <p>Headroom may be lost when gainstaging is too aggressive. This is not a real issue since audio 
                         codecs do not actually "turn down" your audio. It is simply compressed/normalized to the loudest average. If you 
                         listen to songs on soundcloud and again on youtube, loud music is loud because the master is loud.<br><br>
                         
@@ -209,8 +208,8 @@
                 </section>
                 <section style="margin: 1em;">
                     <h2 style="font-weight: 700;" id="compr">Compression</h2><br>
-                    <p>Compression:<br>
-                        is the act of normalizing a sound. Your noise floor/ceiling are set by the user or compressor. After your dynamic 
+                    <h3 style="font-weight: 600; margin: 0.75em;">Compression</h3>
+                    <p>is the act of normalizing a sound. Your noise floor/ceiling are set by the user or compressor. After your dynamic 
                         range is set, your signal is averaged using multiples. 10x would lead to very flat, quiet sound. 2x would lead to a 
                         dynamic, but volatile waveform.<br><br>
                         
@@ -218,53 +217,53 @@
                         rarely benefit the end user unless the goal is to set multiple back to back and create an infinite decay or an overly 
                         noisy sound.<br><br>
 
-                    <p>Ratio:<br>
-                        is the factor in which a compressor averages an audio signal. It is not uncommon for high quality compressors to begin 
+                    <h3 style="font-weight: 600; margin: 0.75em;">Ratio</h3>
+                    <p>is the factor in which a compressor averages an audio signal. It is not uncommon for high quality compressors to begin 
                         at 1:1.1, or 1x1.1 instances of input signal. as we reach 1:2, or 1x2 instances of input signal, your quiet sounds 
                         will be 2x louder than before while your loudest sound will be half as loud, all relative to the average volume of your 
                         input signal</p><br>
 
-                    <p>Threshold:<br>
-                        is a goal post. Any input after the threshold will be reduced however many times your ratio is set to. Volume may 
+                    <h3 style="font-weight: 600; margin: 0.75em;">Threshold</h3>
+                    <p>is a goal post. Any input after the threshold will be reduced however many times your ratio is set to. Volume may 
                         exceed the threshold, but only after surpassing so many decibles of gain per magnitude of ratio.</p><br>
 
-                    <p>Range:<br>
-                        is vital to compression. It allows the user to determine what noise is undesirable while also preserving the most 
+                    <h3 style="font-weight: 600; margin: 0.75em;">Range</h3>
+                    <p>is vital to compression. It allows the user to determine what noise is undesirable while also preserving the most 
                         dynamics.</p><br>
 
-                    <p>Attack:<br>
-                        is the amount of time a compressor needs to respond to input signal.  A short attack creates snappy compression, 
+                    <h3 style="font-weight: 600; margin: 0.75em;">Attack</h3>
+                    <p>is the amount of time a compressor needs to respond to input signal.  A short attack creates snappy compression, 
                         but may be prone to pops and clicks.  A long attack will be more stable, but requires time to meet your compressors 
                         output.<br><br>
                         
                         Analog compressors used to use tiny lightbulbs known as diodes. The input signal would create voltage. Analog 
                         compressors would respond to this using the diode. This phenomenon is also referred to as "bloom".</p><br>
 
-                    <p>Release:<br>
-                        like attack, functions on an envelope - refer to #adsr. Release plays with attack by holding the compression intensity 
+                    <h3 style="font-weight: 600; margin: 0.75em;">Release</h3>
+                    <p>like attack, functions on an envelope - refer to #adsr. Release plays with attack by holding the compression intensity 
                         after input signal has reduced or faded.</p><br>
 
-                    <p>Expansion/Upward:<br>
-                        Provided this is a feature of your compressor, expansion will focus on boosting your signal up-to and past your threshold.<br>
+                    <h3 style="font-weight: 600; margin: 0.75em;">Expansion/Upward</h3>
+                    <p>Provided this is a feature of your compressor, expansion will focus on boosting your signal up-to and past your threshold.<br>
                         
                         Downward is the normal function of a compressor as its explained above. It is not typically a "feature" of compressors as 
                         downward compression is the primary function.</p><br>
 
-                    <p>Knee:<br>
-                        is the intensity of the compressor's specific output. As input signal reaches threshold cieling, signal will be reduced. 
+                    <h3 style="font-weight: 600; margin: 0.75em;">Knee</h3>
+                    <p>is the intensity of the compressor's specific output. As input signal reaches threshold cieling, signal will be reduced. 
                         Input signal below threshold will be compressed either in a linear fashion as per ratio parameters.<br><br>
                         
                         Imagine that the threshold is the rendevouz for the loudest and quietest sounds, while the knee determines how much give 
                         the compressor allows.</p><br>
 
-                    <p>Lookahead:<br>
-                        Looks ahead of your input signal. It will compensate for the bloom affect of your compression. By allowing the compressor 
+                    <h3 style="font-weight: 600; margin: 0.75em;">Lookahead</h3>
+                    <p>Looks ahead of your input signal. It will compensate for the bloom affect of your compression. By allowing the compressor 
                         to see what signal is coming before it arrives, you can reduce inconsistencies in the source.<br><br>
                         
                         Lookahead works both with and against attack depending on your usage.[...]</p><br>
                         
-                    <p>In defense of multiple compressors,<br>
-                        A solid case use would be [eq>comp>vocoder>delay>comp>eq>saturator]. The reason for this is vocoders tend to make sounds 
+                    <h3 style="font-weight: 600; margin: 0.75em;">In defense of multiple compressors,</h3>
+                    <p>A solid case use would be [eq>comp>vocoder>delay>comp>eq>saturator]. The reason for this is vocoders tend to make sounds 
                         much darker than before and also make your signal quieter if not inaudible. Compressing again average out your high end 
                         and low end and make the audible spectrum balanced once more while retaining your mids, depending on how aggressive your 
                         compression ratio is.</p><br><hr>
@@ -294,23 +293,23 @@
                         are often some form of delay, panning, or unison(phase). Best rule of thumb is increase stereo saturation as we 
                         increase in pitch.</p><br>
 
-                    <p>Haas:<br>
-                        is a delay effect. The haas effect is any amount of separation of the left and right channel by/up to 20ms.</p><br>
+                    <h3 style="font-weight: 600; margin: 0.75em;">Haas</h3>
+                    <p>is a delay effect. The haas effect is any amount of separation of the left and right channel by/up to 20ms.</p><br>
                         
-                    <p>Panning:<br>
-                        is the most primitive, but easily the most versatile. You may reduce sounds to mono to take clutter out of a mix without 
+                    <h3 style="font-weight: 600; margin: 0.75em;">Panning</h3>
+                    <p>is the most primitive, but easily the most versatile. You may reduce sounds to mono to take clutter out of a mix without 
                         reducing bass/increase the presence of high end without increasing the volume. You can turn the rate off on a phaser and 
                         separate each pole/phase individually. You can take 2 unique recordings and pan them into the left and right channel 
                         respectively to create an artificial unison.</p><br>
                         
-                    <p>Unison:<br>
-                        is not exclusive to synthesizers, but is most commonly associated with them. Flangers and chorus create false unison using 
+                    <h3 style="font-weight: 600; margin: 0.75em;">Unison</h3>
+                    <p>is not exclusive to synthesizers, but is most commonly associated with them. Flangers and chorus create false unison using 
                         delay. Synths create true unison by playing multiple instances of an oscillator out of phase, often in stereo. A unison mix 
                         may then be used like a volume knob.</p><br>
                          
-                    <p>Double-Tracking:<br>
-                    creates true stereo seperation via analog or acoustic environments. The randomness of every recording provides a smoother
-                    texture to your stereo field and is most commonly practiced with vocal harmonies, string instruments, and </p><br><hr>
+                    <h3 style="font-weight: 600; margin: 0.75em;">Double-Tracking</h3>
+                    <p>creates true stereo seperation via analog or acoustic environments. The randomness of every recording provides a smoother
+                        texture to your stereo field and is most commonly practiced with vocal harmonies, string instruments, and </p><br><hr>
                 </section>
                 <section style="margin: 1em;">
                     <h2 style="font-weight: 700;" style="font-weight: 700;" id="dithr">Dithering</h2><br>
@@ -346,33 +345,33 @@
         <div class="container">
             <div class="even-columns">
                 <div>
-                    <a href="..\index.html"><img src="..\img/ypliet/ypliet denour logo linear V1.svg" style="height: 10svh;"></a>
-                    <ul role="list" class="center">
-                        <li><button type="button"><a title="facebook" href="https://www.facebook.com/yplietdenour" target="_blank"><img class="icon" src="..\img\icon\facebook.svg"></a></button></li>
-                        <li><button type="button"><a title="instagram" href="https://www.instagram.com/yplietdenour/" target="_blank"><img class="icon" src="..\img\icon\instagram.svg"></a></button></li>
-                        <li><button type="button"><a title="twitter" href="https://twitter.com/yplietdenour" target="_blank"><img class="icon" src="..\img\icon\twitter.svg"></a></button></li>
-                        <li><button type="button"><a title="discord" href="https://discord.gg/JT3PsUjxNv" target="_blank"><img class="icon" src="..\img\icon\discord.svg"></a></button></li>
-                        <li><button type="button"><a title="soundcloud" href="https://soundcloud.com/yplietdenour" target="_blank"><img class="icon" src="..\img\icon\soundcloud.svg"></a></button></li>
+                    <a href="../index.html"><img src="../img/ypliet/ypliet_denour_logo_linear_V1.svg" style="height: 10svh;" ></a>
+                    <ul class="center">
+                        <li><button type="button"><a title="facebook" href="https://www.facebook.com/yplietdenour" target="_blank"><img class="icon" src="../img/icon/facebook.svg" alt="facebook"></a></button></li>
+                        <li><button type="button"><a title="instagram" href="https://www.instagram.com/yplietdenour/" target="_blank"><img class="icon" src="../img/icon/instagram.svg" alt="instagram"></a></button></li>
+                        <li><button type="button"><a title="twitter" href="https://twitter.com/yplietdenour" target="_blank"><img class="icon" src="../img/icon/twitter.svg" alt="twitter"></a></button></li>
+                        <li><button type="button"><a title="discord" href="https://discord.gg/JT3PsUjxNv" target="_blank"><img class="icon" src="../img/icon/discord.svg" alt="discord"></a></button></li>
+                        <li><button type="button"><a title="soundcloud" href="https://soundcloud.com/yplietdenour" target="_blank"><img class="icon" src="../img/icon/soundcloud.svg" alt="soundcloud"></a></button></li>
                     </ul>
                 </div>
                 <div>
                     <nav id=footer-nav aria-label="Footer" class="footer-nav center" style="align-content: center;">
                         <ul>
-                            <li><a class="nav-link" href="..\index.html">Home</a></li>
-                            <li><a class="nav-link" href="..\music.html">Music</a></li>
-                            <li><a class="nav-link" href="..\merch.html">Merch</a></li>
-                            <li><a class="nav-link" href="..\tour.html">Shows</a></li>
+                            <li><a class="nav-link" href="../index.html">Home</a></li>
+                            <li><a class="nav-link" href="../music.html">Music</a></li>
+                            <li><a class="nav-link" href="../merch.html">Merch</a></li>
+                            <li><a class="nav-link" href="../tour.html">Shows</a></li>
                         </ul>
                         <ul>
-                            <li><a class="nav-link" href="..\guides.html">Guides</a></li>
-                            <li><a class="nav-link" href="..\epk.html">EPK</a></li>
-                            <li><a class="nav-link" href="..\contact.html">Contact</a></li>
-                            <li><a class="nav-link" href="..\privacy.html">Privacy Policy</a></li>
+                            <li><a class="nav-link" href="../guides.html">Guides</a></li>
+                            <li><a class="nav-link" href="../epk.html">EPK</a></li>
+                            <li><a class="nav-link" href="../contact.html">Contact</a></li>
+                            <li><a class="nav-link" href="../privacy.html">Privacy Policy</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div style="display: flex; flex-direction: column;">
-                    <form action="..\sign_up.py">
+                    <form action="../sign_up.py">
                         <label for="email">Join Ypliet's mailing list for updates and discounts.</label><br>
                         <input type="email" id="email" name="email">
                         <input type="submit">
