@@ -53,16 +53,28 @@
                 </section>
                 <section style="margin: 1em;">
                     <h2 style="font-weight: 700;" id="odrfx">Order of FX</h2><br>
-                    <p>can use the same fx but sound wildly different depending on placement</p><br>
+                    <p>The order of effects can help or harm a producer or musician depending on their placement.</p><br>
 
                     <p>Some common rules are:</p>
                         <ol style="margin-left: 1.25em; line-height: 3vh;">
                             <li>- stereo processing comes first for sounds that require mono compatibility</li>
                             <li>- compress sounds before saturating</li>
-                            <li>- [EQ] shape before compression and sculpt after all of your processing is complete</li>
+                            <li>- [EQ]cut before compression and [EQ]sculpt after your processing is set</li>
                             <li>- use delay or reverb last for a clean tail, use delay or reverb before compression 
                                 to create near infinite "blow outs"</li>
-                        </ol><br><hr>
+                        </ol>
+
+                    <p>Compression will make sounds loud up to &plusmn;0db. After sounds reach the sound cieling, compression
+                        will turn them down. If that does not highlight the value of placement, i don't know what will.<br><br>
+
+                        A loudness first approach says we will always compress first to crush the waveform and accentuate 
+                        the fragile highs in a non-destructive manner. It is still possible to achieve loudness with 
+                        distortion only, but doing so may cause ear fatigue in the listener. When music hurts to listen to, 
+                        you lose listeners and then you lose money and then fans and then oh no there goes my royalties lol.<br><br>
+
+                        That then begs the question of where filtering or phase sweeps go.
+
+                    </p><br><hr>
                 </section>
                 <section style="margin: 1em;">
                     <h2 style="font-weight: 700;" id="sidec">Sidechain</h2><br>
@@ -79,7 +91,7 @@
 
                         <p>Compression sidechaining is not an accurate method as it computes incoming signal
                             in real time. No matter how effective your hardware is, there could be a 10ms 
-                            delay up to 100ms delay in the form of bloom. You may learn more about bloom 
+                            delay up to 100ms delay in the form of bloom. You may learn more about parameters 
                             in <a href="sound-engineering.html#compr"><u>compression</u></a>.<br><br>
                             
                             The best use case of compression sidechaining is to duck one instrument using 
@@ -98,7 +110,7 @@
                                 are playing at the same time.</li>
                         </ol><br>
 
-                        <p>inline automation is the act of scripting your sidechain. Because the daw is reading code 
+                        <p>Inline automation is the act of scripting your sidechain. Because the daw is reading code 
                             instead of reacting to an input, you can get a snappy attack on your sidechain, 
                             increasing the pop, or <b>transient</b>, of your drums.<br><br>
 
