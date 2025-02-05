@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.music-container {
+    background-color: #272727;
+
+    display: flex;
+    padding: 20px 30px;
+    position: relative;
+    margin: 100px 0;
+    z-index: 0;
+} 
+.img-container {
+    position: relative;
+    width: 110px;
+}
+  
+.img-container img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 110px;
+    width: inherit;
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.action-btn {
+    border: 0;
+    color: #dfdbdf;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0.5em;
+}  
+.action-btn.action-btn-big {
+    color: #9da0ff;
+    font-size: 30px;
+}
+.action-btn:focus {
+    outline: 0;
+}
+.music-info {
+    border-radius: 15px 15px 0 0;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    width: calc(100% - 40px);
+    padding: 10px 10px 10px 150px;
+    opacity: 0;
+    z-index: 1;
+}
+.music-container.play .music-info {
+    opacity: 1;
+    transform: translateY(-100%);
+}
+.music-info h4 {
+    margin: 0;
+}
+.progress-container {
+    background: #0f0f0f;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    height: 4px;
+    width: 100%;
+}
+.progress {
+    background-color: #9da0ff;
+    border-radius: 5px;
+    height: 100%;
+    width: 0%;
+    transition: width 0.1s linear;
+}
