@@ -335,7 +335,6 @@ footer button:hover {
 .nav-link {
 cursor: pointer;
 }
-
 .opened {
   display: block;
   position: fixed;
