@@ -12,7 +12,7 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles
-const songs = ['Just Cant Stop', 'when i was older', 'Sync Purge', 'XLR8', 'The Ghosts', 'Quarter Cruncher', 'schwinger',
+const songs = ['Just Cant Stop', 'Sync Purge', 'XLR8', 'The Ghosts', 'Quarter Cruncher', 'schwinger',
 	'Carage Drunk', 'Clamp', 'Famous Dex - Japan (Ypliet Denour Remix)', 'Mochi', 'SD - RISE (Ypliet Denour Remix)',
 	'On The News', 'KOMPLVINT - Weapons Activated (Ypliet Denour Remix)',
 	'Lullaby',
