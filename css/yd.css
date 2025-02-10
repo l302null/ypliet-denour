@@ -277,11 +277,6 @@ footer button:hover {
   display: grid;
   gap: 1rem;
 }
-.guides-header {
-  padding-top: 1vh;
-  padding-bottom: 1vh;
-  background: #7da0ff;
-}
 .icon {
   width: 1.5em;
   height: 1.5em;
@@ -292,7 +287,7 @@ footer button:hover {
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
   container-type: inline-size;
   gap: 1rem;
-
+  
   padding: 0.5em 1.75em 0.5em 1.75em;
 }
 .listing img {
@@ -309,23 +304,10 @@ footer button:hover {
 .nav-list, svg {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-
-
-  gap: clamp(var(--size-400), 5vw, var(--size-800));
-  font-weight: var(--fw-semi-bold);
-  text-decoration: none;
-  justify-content: center;
-  text-align: center;
-}
-.nav-listt, svg {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-
-
+  
   gap: clamp(var(--size-400), 5vw, var(--size-800));
   font-weight: var(--fw-semi-bold);
   text-decoration: none;
@@ -333,7 +315,7 @@ footer button:hover {
   text-align: center;
 }
 .nav-link {
-cursor: pointer;
+  cursor: pointer;
 }
 .opened {
   display: block;
@@ -343,4 +325,9 @@ cursor: pointer;
   padding-top: 1vh;
   padding-bottom: 1vh;
   background: #9da0ff;
+}
+.guides-header {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  background: #7da0ff;
 }
