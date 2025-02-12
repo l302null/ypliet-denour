@@ -66,13 +66,13 @@ picture {
 body {
   min-height: 100vh;
   width: auto;
-
+  
   font-family: 'Rajdhani';
   text-rendering: optimizeSpeed;
   font-size: var(--fs-body);
   font-family: var(--ff-body);
   color: #f1f1f1;
-
+  
   background: #0f0f0f;
 }
 body p {
@@ -93,6 +93,9 @@ a {
 }
 nav a {
   color: #0f0f0f;
+}
+b {
+  font-style: oblique;
 }
 li a:where(:hover, :focus), footer li a:where(:hover, :focus) {
   color: #f1f1f1;
@@ -289,6 +292,13 @@ footer button:hover {
   gap: 1rem;
   
   padding: 0.5em 1.75em 0.5em 1.75em;
+}
+.shelf {
+  background: rgb(39,39,39);
+  background: -moz-linear-gradient(0deg, rgba(39,39,39,1) 0%, rgba(172,172,172,0) 35%, rgba(0,212,255,0) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(39,39,39,1) 0%, rgba(172,172,172,0) 35%, rgba(0,212,255,0) 100%);
+  background: linear-gradient(0deg, rgba(39,39,39,1) 0%, rgba(172,172,172,0) 35%, rgba(0,212,255,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#272727",endColorstr="#00d4ff",GradientType=1); 
 }
 .listing img {
   border-radius: 1em;
