@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-
 .music-container {
     background-color: #272727;
 
@@ -10,11 +8,6 @@
 .img-container {
     position: relative;
     width: 110px;
-}
-.img-container img {
-
-}
-.nav-container {
 }
 .navigation {
     display: flex;
@@ -61,7 +54,7 @@
     cursor: pointer;
     height: 4px;
     width: 100%;
-    max-width: 50%;
+    max-width: 60%;
 }
 .progress {
     background-color: #9da0ff;
